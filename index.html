@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Italiano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-screen" class="screen">
+        <h1>Bienvenido al Quiz de Italiano</h1>
+        <label for="username">Tu nombre:</label>
+        <input type="text" id="username" />
+        <button id="start-btn">Empezar</button>
+    </div>
+
+    <div id="quiz-screen" class="screen hidden">
+        <div id="progress"></div>
+        <div id="question-container"></div>
+        <button id="skip-btn">Dame otra pregunta</button>
+        <button id="submit-btn">Enviar respuesta</button>
+        <div id="feedback" class="hidden"></div>
+    </div>
+
+    <div id="reference" class="hidden">
+        <h2>Conjugaciones</h2>
+        <h3>Ser</h3>
+        <ul>
+            <li>(yo) soy</li>
+            <li>(tú/vos) sos</li>
+            <li>(él/ella) es</li>
+            <li>(nosotros/as) somos</li>
+            <li>(ustedes) son</li>
+            <li>(ellos/as) son</li>
+        </ul>
+        <h3>Tener</h3>
+        <ul>
+            <li>(yo) tengo</li>
+            <li>(tú/vos) tenés</li>
+            <li>(él/ella) tiene</li>
+            <li>(nosotros/as) tenemos</li>
+            <li>(ustedes) tienen</li>
+            <li>(ellos/as) tienen</li>
+        </ul>
+        <button id="close-ref">Cerrar</button>
+    </div>
+
+    <button id="open-ref" class="hidden">Ver conjugaciones</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+[
+    {
+        "type": "multiple",
+        "question": "¿Cómo se conjuga 'ser' para nosotros/as?",
+        "options": ["soy", "somos", "es", "son"],
+        "answer": 1,
+        "explanation": "Recordá que para nosotros/as se usa 'somos'.",
+        "category": "ser"
+    },
+    {
+        "type": "truefalse",
+        "question": "La frase 'Vos sos estudiante' es correcta.",
+        "answer": "true",
+        "explanation": "'Vos sos' es la forma rioplatense de 'tú eres'.",
+        "category": "ser"
+    },
+    {
+        "type": "fillblank",
+        "question": "Completa: Yo ____ estudiante.",
+        "answer": "soy",
+        "explanation": "La primera persona del verbo 'ser' es 'soy'.",
+        "category": "ser"
+    },
+    {
+        "type": "short",
+        "question": "Escribe la forma de 'tener' para él/ella.",
+        "answer": "tiene",
+        "explanation": "Él/Ella tiene.",
+        "category": "tener"
+    },
+    {
+        "type": "multiple",
+        "question": "¿Cuál es la nacionalidad de alguien de Italia (masculino singular)?",
+        "options": ["italiano", "italiana", "francés", "alemán"],
+        "answer": 0,
+        "explanation": "La forma masculina es 'italiano'.",
+        "category": "nacionalidades"
+    },
+    {
+        "type": "multiple",
+        "question": "¿Cuál es la forma femenina de 'argentino'?",
+        "options": ["argentina", "argentinas", "argentinos", "argento"],
+        "answer": 0,
+        "explanation": "En femenino singular es 'argentina'.",
+        "category": "nacionalidades"
+    },
+    {
+        "type": "fillblank",
+        "question": "Completa: Nosotros ____ una mascota.",
+        "answer": "tenemos",
+        "explanation": "Para nosotros/as se usa 'tenemos'.",
+        "category": "tener"
+    },
+    {
+        "type": "truefalse",
+        "question": "'Ustedes son amigos' está correctamente conjugado.",
+        "answer": "true",
+        "explanation": "Para ustedes se usa 'son'.",
+        "category": "ser"
+    },
+    {
+        "type": "match",
+        "question": "Relaciona el alimento con su nombre en español.",
+        "pairs": [
+            {"left": "🍎", "right": "manzana"},
+            {"left": "🥕", "right": "zanahoria"},
+            {"left": "🍞", "right": "pan"}
+        ],
+        "explanation": "Así se escriben estos alimentos en español.",
+        "category": "alimentos"
+    },
+    {
+        "type": "short",
+        "question": "Nombra un objeto escolar que empiece con 'l'.",
+        "answer": "lápiz",
+        "explanation": "Un ejemplo es 'lápiz'.",
+        "category": "objetos"
+    }
+]
