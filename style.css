@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f4ff;
+    margin: 0;
+    padding: 20px;
+}
+.screen {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hidden { display: none; }
+#question-container {
+    margin: 20px 0;
+}
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
+#progress-bar {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#progress-fill {
+    height: 100%;
+    width: 0%;
+    background: #8e44ad;
+    transition: width 0.3s;
+}
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    background: gold;
+    border-radius: 5px;
+    margin: 5px;
+}
